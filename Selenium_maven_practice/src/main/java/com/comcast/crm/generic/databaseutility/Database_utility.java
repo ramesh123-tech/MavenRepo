@@ -5,7 +5,9 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-import com.mysql.jdbc.Driver;
+import com.mysql.cj.jdbc.Driver;
+
+
 
 public class Database_utility {
 	Connection con=null;
