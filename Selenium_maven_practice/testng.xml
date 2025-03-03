@@ -5,7 +5,7 @@
 <listeners>
 <listener class-name="com.comcast.crm.generic.listener_Utility.Listener"></listener>
 </listeners>
-  <test thread-count="5" name="Test">
+  <test  name="Test">
     <classes>
       <class name="contacts.Working_with_Cnt_TC_baseclassTest"></class>
       <class name="organization.Working_with_Org_TC_baseclassTest"/>
