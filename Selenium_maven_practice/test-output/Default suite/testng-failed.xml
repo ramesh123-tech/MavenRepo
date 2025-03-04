@@ -6,6 +6,7 @@
       <class name="contacts.Working_with_Cnt_TC_baseclassTest">
         <methods>
           <include name="contacs_02"/>
+          <include name="Contacts_06"/>
           <include name="configBM"/>
           <include name="contacts_01"/>
           <include name="configAM"/>
