@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1chrome(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="organization.Working_with_Org_TC_baseclassTest">
+        <methods>
+          <include name="organization_02"/>
+          <include name="configBM"/>
+          <include name="organization_01"/>
+          <include name="organization_03"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- organization.Working_with_Org_TC_baseclassTest -->
+      <class name="contacts.Working_with_Cnt_TC_baseclassTest">
+        <methods>
+          <include name="Contacts_06"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- contacts.Working_with_Cnt_TC_baseclassTest -->
+    </classes>
+  </test> <!-- Test1chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
