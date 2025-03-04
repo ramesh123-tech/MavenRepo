@@ -10,7 +10,7 @@
   </test> <!-- Test -->
   
    <test thread-count="2" parallel="tests" name="Test2firefox">
-     <parameter name="BROWSER" value="edge"></parameter>
+     <parameter name="BROWSER" value="firefox"></parameter>
     <classes>
       <class name="contacts.Working_with_Cnt_TC_baseclassTest"/>
       <class name="organization.Working_with_Org_TC_baseclassTest"/>
