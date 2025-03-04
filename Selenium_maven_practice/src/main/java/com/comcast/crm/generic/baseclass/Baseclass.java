@@ -81,8 +81,9 @@ public class Baseclass {
 			System.out.println("Execute Logout of app");
 			Homepage hp= new Homepage(driver);
 			hp.getSignout().click();
-			Actions act= new Actions(driver);
-			act.moveToElement(hp.getOut()).click().perform();
+			//Actions act= new Actions(driver);
+			//act.moveToElement(hp.getOut()).click().perform();
+			hp.getOut().click();
 		}
 		
 		@AfterClass(alwaysRun = true)
