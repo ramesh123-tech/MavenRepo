@@ -21,7 +21,7 @@ public class Homepage {
 	@FindBy(xpath = "(//td[@valign='bottom'])[2]")
 	private WebElement signout;
 	
-	@FindBy(linkText = "Sign Out")
+	@FindBy(xpath = "//a[text()='Sign Out']")
 	private WebElement out;
 
 	//rule4 

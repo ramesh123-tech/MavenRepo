@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="contacts.Working_with_Cnt_TC_baseclassTest">
+      <class name="hii.hrtest">
         <methods>
-          <include name="contacs_02"/>
-          <include name="Contacts_06"/>
-          <include name="configBM"/>
-          <include name="contacts_01"/>
-          <include name="configAM"/>
-          <include name="configBC"/>
-          <include name="configBS"/>
-          <include name="configAC"/>
-          <include name="configAS"/>
+          <include name="orgtest"/>
         </methods>
-      </class> <!-- contacts.Working_with_Cnt_TC_baseclassTest -->
+      </class> <!-- hii.hrtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
